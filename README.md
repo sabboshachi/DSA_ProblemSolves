@@ -7,3 +7,5 @@ Currently, I'm following the book
 ### "SCHAUM'S OUTLINE SERIES THEORY AND PROBLEMS OF DATA STRUCTURE"
 
 The book can be downloaded from here: [BOOK](https://#) 
+
+For details description follow my blog on Data Structure and Algorithms. [LINK](https://#)
