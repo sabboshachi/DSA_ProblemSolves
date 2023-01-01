@@ -6,6 +6,6 @@ Here I'll try to cover it using two or three different programing languages such
 I've taken instruction from different sources which I'll update with time.
 
 Currently, I'm following the book 
-#### "SCHAUM'S OUTLINE SERIES THEORY AND PROBLEMS OF DATA STRUCTURE"
+### "SCHAUM'S OUTLINE SERIES THEORY AND PROBLEMS OF DATA STRUCTURE"
 
 The book can be downloaded from the below link:
