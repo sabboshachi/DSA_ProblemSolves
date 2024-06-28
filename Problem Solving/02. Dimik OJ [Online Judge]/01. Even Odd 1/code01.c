@@ -14,4 +14,5 @@ int main(){
             T--;
         }
     }
+    return 0;
 }
