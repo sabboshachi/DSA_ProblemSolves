@@ -1,22 +1,20 @@
-# Programing Contest Data Structure & Algorithm
-<img align="right" src="img/Cover.jpg" width="205" height="260" alt="image" />
-🚀 **C/C++ and Competitive Programming Edition!** 🚀</br>
-Hello fellow coders and enthusiasts! 👋</br>
-Embark on an exciting coding journey with this repository dedicated to mastering C/C++ and sharpening your skills in competitive programming. Whether you're a beginner or seasoned coder, this collection of resources and solutions is crafted to elevate your proficiency in these versatile languages and enhance your problem-solving abilities.</br>
-Here, I’m following the book named “Programming Contest Data Structure and Algorithm”
+# Problem 04: Divisor
 
-## The Chapter List:
+## Problem Statement
+একটি সংখ্যার সব গুণনীয়ক (ভাজক) বের করতে হবে।
 
-01. Introduction
-02. [C Review](https://github.com/sabboshachi/DataStructure_Algorithm/tree/main/Practice%20from%20Books/01.Programing_Contest_DataStructure_and_Algorithm/Chapter_2%20(C%20Review)) 
-03. Math
-04. Sorting and Searching
-05. Data Structure
-06. Greedy Technique
-07. Dynamic Programing
-08. Graph
-09. Adhoc Technique
-10. Geometry and Computational Geometry
-11. String Related Data Structure and Algorithm
+### Input
+প্রথম লাইনে থাকবে টেস্ট কেসের সংখ্যা T(<=10>)। পরবর্তী T-সংখ্যক লাইনে একটি করে পূর্ণসংখ্যা N থাকবে, যেখানে 1<=N<=100000।
 
-Let this repository be your companion in the journey of mastering C/C++ and excelling in competitive programming. Happy coding! 🚀💻
+### Output
+প্রতিটি কেসের জন্য একটি করে লাইন প্রিন্ট করতে হবে, শুরুতে কেস নম্বর দিতে হবে। এরপর N-এর সব গুণনীয়ক ছোটো থেকে বড়ো ক্রমানুসারে প্রিন্ট করতে হবে। প্রতিটি গুণনীয়ক শুধু একবার প্রিন্ট করতে হবে। গুণনীয়কগুলোকে শুধু একটি স্পেস দিয়ে আলাদা করতে হবে। লাইনের শেষে কোনো অতিরিক্ত স্পেস থাকবে না।
+
+## Example Input Output
+
+
+|Input   	|Output     	|	
+|---------|-------------|
+|3   	    |   	        |
+|6   	  |Case 1: 1 2 3 6	        |
+|15   	    |Case 2: 1 3 5 15  |
+|23  	  |Case 3: 1 23 |
