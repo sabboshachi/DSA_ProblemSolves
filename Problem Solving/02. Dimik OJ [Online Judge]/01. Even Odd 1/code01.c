@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
-    int T;
-    unsigned int N;
+    int T,N;
     scanf("%d", &T);
     if(1<=T<=100){
         while(T!=0){
@@ -14,5 +13,4 @@ int main(){
             T--;
         }
     }
-    return 0;
 }
