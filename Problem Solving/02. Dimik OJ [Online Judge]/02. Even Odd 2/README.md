@@ -1,22 +1,19 @@
-# Programing Contest Data Structure & Algorithm
-<img align="right" src="img/Cover.jpg" width="205" height="260" alt="image" />
-🚀 **C/C++ and Competitive Programming Edition!** 🚀</br>
-Hello fellow coders and enthusiasts! 👋</br>
-Embark on an exciting coding journey with this repository dedicated to mastering C/C++ and sharpening your skills in competitive programming. Whether you're a beginner or seasoned coder, this collection of resources and solutions is crafted to elevate your proficiency in these versatile languages and enhance your problem-solving abilities.</br>
-Here, I’m following the book named “Programming Contest Data Structure and Algorithm”
+# Problem 01: Even Odd 1
 
-## The Chapter List:
+## সমস্যার বিবরণ
+একটি পূর্ণসংখ্যা দেওয়া থাকবে, সেটি জোড় না বিজোড় তা বের করতে হবে।
 
-01. Introduction
-02. [C Review](https://github.com/sabboshachi/DataStructure_Algorithm/tree/main/Practice%20from%20Books/01.Programing_Contest_DataStructure_and_Algorithm/Chapter_2%20(C%20Review)) 
-03. Math
-04. Sorting and Searching
-05. Data Structure
-06. Greedy Technique
-07. Dynamic Programing
-08. Graph
-09. Adhoc Technique
-10. Geometry and Computational Geometry
-11. String Related Data Structure and Algorithm
+### ইনপুট
+প্রথম লাইনে একটি সংখ্যা T(1<=T<=100) দেওয়া থাকবে। পরবর্তীতে T-এর মান যত, ততটি লাইন থাকবে। প্রতিটি লাইনে একটি করে পূর্ণসংখ্যা N(0<=N<=2147483647) দেওয়া থাকবে।
 
-Let this repository be your companion in the journey of mastering C/C++ and excelling in competitive programming. Happy coding! 🚀💻
+### আউটপুট
+প্রতিটি পূর্ণসংখ্যার জন্য, সংখ্যাটি জোড় হলে even, আর বিজোড় হলে odd কথাটি প্রিন্ট করতে হবে।
+
+## নমুনা ইনপুট আউটপুট
+
+|ইনপুট   	|আউটপুট   	|	
+|---------|-------------|
+|3   	    |   	        |
+|100   	  |even	        |
+|0   	    |even   	    |
+|11   	  |odd   	      |
