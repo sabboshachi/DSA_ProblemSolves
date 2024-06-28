@@ -4,6 +4,7 @@
 1. Codeforces
 2. LeetCode
 3. Timus Online Judge
+4. Dimik OJ
 
 ## Reference Books
 1. Book 01
