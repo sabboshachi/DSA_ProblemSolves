@@ -1,16 +1,35 @@
-# Python Projects List 
-## [01. QR Code Generator](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/01.QR%20Code%20Generator)
-## [02. Text to Speech Converter](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/02.Text%20to%20Speech%20Converter)
-## [03. Alien Invasion](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/03.Alien%20Invasion)
-## [04. Dice Rolling](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/04.Dice%20Rolling)
-## [05. WhatsApp Bot](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/05.WhatsApp%20Bot)
-## [06. Data Visualization](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/06.%20Data%20Visualization%20Projects)
-## [07. Triangle Calculator](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/07.%20Triangle%20Calculator)
-## [08. Math Game](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/08.Math%20Game)
-## [09. Find IP Address](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/09.Find%20IP%20Address)
-## [10. Digital Clock](https://github.com/sabboshachi/Personal_Projects/tree/main/Python%20Projects/10.Digital%20Clock)
-## [11. ]()
-## [12. ]()
-## [13. ]()
-## [14. ]()
-## [15. ]()
+# Data Structure and Algorithms
+
+## Data Structures
+1. Arrays
+2. Linked Lists
+3. Stacks
+4. Queues
+5. Maps & Hash Tables
+6. Graphs
+7. Trees
+8. Binary Trees & Binary Search Trees
+9. Self-balancing Trees (AVL Trees, Red-Black Trees, Splay Trees)
+10. Heaps
+11. Tries
+12. Segment Trees
+13. Fenwick Trees
+14. Disjoint Set Union
+15. Minimum Spanning Trees
+
+## Algorithms
+1. Divide and Conquer
+2. Sorting Algorithms (Bubble Sort, Counting Sort, Quick Sort, Merge Sort, Radix Sort)
+3. Searching Algorithms (Linear Search, Binary Search)
+4. Sieve of Eratosthenes
+5. Knuth-Morris-Pratt Algorithm
+6. Greedy I (Maximum number of non-overlapping intervals on an axis)
+7. Greedy II (Fractional Knapsack Problem)
+8. Dynamic Programming I (0–1 Knapsack Problem)
+9. Dynamic Programming II (Longest Common Subsequence)
+10. Dynamic Programming III (Longest Increasing Subsequence)
+11. Convex Hull
+12. Graph Traversals (Breadth-First Search, Depth-First Search)
+13. Floyd-Warshall / Roy-Floyd Algorithm
+14. Dijkstra's Algorithm & Bellman-Ford Algorithm
+15. Topological Sorting
