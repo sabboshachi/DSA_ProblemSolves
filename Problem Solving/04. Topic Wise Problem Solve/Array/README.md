@@ -42,6 +42,6 @@ The annual examination result of 20 students are tabulated as follow:
 |   	  |   	|     |   	|
 
 Write a C program to read the data and determine the followings: 
-    a) Total marks obtained by each student 
-    b) The highest mark in each subject and the roll no. of the student who obtained it. 
-    c) The student who obtained the highest total marks.
+    - Total marks obtained by each student 
+    - The highest mark in each subject and the roll no. of the student who obtained it. 
+    - The student who obtained the highest total marks.
