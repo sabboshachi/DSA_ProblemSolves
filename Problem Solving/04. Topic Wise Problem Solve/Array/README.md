@@ -23,9 +23,24 @@ Write a C program to sort elements of an array in ascending order.
 Write a C program to sort elements of an array in descending order.
 
 ### Problem 09
+Write a C program to find sum of two matrix of order 2*2 using 
+multidimensional arrays where, elements of matrix are entered by 
+user. 
 
-<!-- ### Problem 10
+### Problem 10
+Write a C program to draw a multiplication table using two 
+dimensional array. 
 
 ### Problem 11
+Write a C program to find the transpose of a matrix. 
 
-### Problem 12 -->
+### Problem 12
+The annual examination result of 20 students are tabulated as follow:
+|Roll no.|Sub1|Sub2|Sub3|
+_________________________
+|        |    |    |    |
+
+Write a C program to read the data and determine the followings: 
+    a) Total marks obtained by each student 
+    b) The highest mark in each subject and the roll no. of the student who obtained it. 
+    c) The student who obtained the highest total marks.
