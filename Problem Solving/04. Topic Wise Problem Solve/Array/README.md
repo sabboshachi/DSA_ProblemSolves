@@ -36,11 +36,12 @@ Write a C program to find the transpose of a matrix.
 
 ### Problem 12
 The annual examination result of 20 students are tabulated as follow:
-|Roll no.|Sub1|Sub2|Sub3|
-_________________________
-|        |    |    |    |
+
+|Roll no. |Sub1 |Sub2 |Sub3 |	
+|---------|-----|-----|-----|
+|   	  |   	|     |   	|
 
 Write a C program to read the data and determine the followings: 
-    a) Total marks obtained by each student 
-    b) The highest mark in each subject and the roll no. of the student who obtained it. 
-    c) The student who obtained the highest total marks.
+    - Total marks obtained by each student 
+    - The highest mark in each subject and the roll no. of the student who obtained it. 
+    - The student who obtained the highest total marks.
