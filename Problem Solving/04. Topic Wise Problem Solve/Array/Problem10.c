@@ -9,7 +9,6 @@ int main(){
     int i,j,k,sum = 0;
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
-             
             for(k=0;k<2;k++){
                sum = sum + (mtx1[i][k] * mtx2[k][j]);
             }
