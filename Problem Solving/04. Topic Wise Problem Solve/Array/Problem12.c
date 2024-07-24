@@ -9,7 +9,7 @@
 #include<stdio.h>
 int main(){
     int resulttable[5][4], total_mark[5][2];
-    int i,j,k,sum=0, max=0, roll;
+    int i,j,k,sum=0, max=0, roll, smax=0;
     for(i=0;i<5;i++){
         printf("Enter the numbers for roll 0%d: \n", i+1);
         for(j=1;j<4;j++){
@@ -52,8 +52,8 @@ int main(){
     for(i=0;i<1;i++){
         for(j=1;j<4;j++){
             max = resulttable[i][j];
-            roll = resulttable[j][i];
             for(k=1;k<5;k++){
+                roll = resulttable[k-1][i];
                 if(max < resulttable[k][j]){
                     max = resulttable[k][j];
                     roll = resulttable[k][i];
@@ -69,6 +69,24 @@ int main(){
 
     printf("\nThe student who obtained the highest total marks\n");
 
+    for(i=0,k=0;i<5;i++){
+        sum = 0;
+        for(j=1;j<4;j++){
+            sum = sum + resulttable[i][j];
+        }
+        total_mark[i][k] = i+1;
+        total_mark[i][k+1] = sum;
+    }
 
+    for(i=0,j=1;i<1;i++){
+        smax = total_mark[i][j];
+        for(k=1;k<5;k++){
+            if(smax<total_mark[k][j]){
+                smax = total_mark[k][j];
+                roll = total_mark[k][i];
+            }
+        }
+        printf("The highest mark obtained is %d by Roll no. %d", smax,roll);
+    }
     return 0;
 }
