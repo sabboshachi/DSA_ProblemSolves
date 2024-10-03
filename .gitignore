@@ -23,4 +23,4 @@ Cpp Practice/.vscode
 
 .build
 
-.exe
+*.exe
