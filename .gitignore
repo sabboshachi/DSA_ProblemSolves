@@ -1,8 +1,17 @@
-# Compiled class file
+# Compiled source #
+###################
+*.com
 *.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Log file
+# Logs and databases #
+######################
 *.log
+*.sql
+*.sqlite
 
 # BlueJ files
 *.ctxt
@@ -23,4 +32,4 @@ Cpp Practice/.vscode
 
 .build
 
-*.exe
+
