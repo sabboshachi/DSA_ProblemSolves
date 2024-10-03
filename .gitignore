@@ -22,3 +22,5 @@ hs_err_pid*
 Cpp Practice/.vscode
 
 .build
+
+.exe
