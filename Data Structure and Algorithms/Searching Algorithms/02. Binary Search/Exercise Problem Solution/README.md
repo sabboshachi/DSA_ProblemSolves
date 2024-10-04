@@ -35,12 +35,12 @@ For example,
 
 Input: nums = [2, 5, 5, 5, 6, 6, 8, 9, 9, 9]</br>
 target = 5 </br>
-Output: 
+Output: </br>
 The first occurrence of element 5 is located at index 1 </br>
 The last occurrence of element 5 is located at index 3  </br>
 Total occurrence 3 times
 
-[***Code03_01: Solution for first Occurrence***](https://github.com/sabboshachi/DSA_ProblemSolves/blob/main/Data%20Structure%20and%20Algorithms/Searching%20Algorithms/02.%20Binary%20Search/Exercise%20Problem%20Solution/code03_01.c)
-[***Code03_02: Solution for last Occurrence***](https://github.com/sabboshachi/DSA_ProblemSolves/blob/main/Data%20Structure%20and%20Algorithms/Searching%20Algorithms/02.%20Binary%20Search/Exercise%20Problem%20Solution/code03_02.c)
+[***Code03_01: Solution for first Occurrence***](https://github.com/sabboshachi/DSA_ProblemSolves/blob/main/Data%20Structure%20and%20Algorithms/Searching%20Algorithms/02.%20Binary%20Search/Exercise%20Problem%20Solution/code03_01.c) </br>
+[***Code03_02: Solution for last Occurrence***](https://github.com/sabboshachi/DSA_ProblemSolves/blob/main/Data%20Structure%20and%20Algorithms/Searching%20Algorithms/02.%20Binary%20Search/Exercise%20Problem%20Solution/code03_02.c) </br>
 [***Full Solution***](https://github.com/sabboshachi/DSA_ProblemSolves/blob/main/Data%20Structure%20and%20Algorithms/Searching%20Algorithms/02.%20Binary%20Search/Exercise%20Problem%20Solution/code03.c)
 
