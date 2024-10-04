@@ -1,45 +1,49 @@
-# Selection Sort
+# Insertion Sort
 
-Selection Sort is a comparison-based sorting algorithm. It sorts an array by repeatedly selecting the smallest (or largest) element from the unsorted portion and swapping it with the first unsorted element. This process continues until the entire array is sorted.
+Insertion sort is like sorting playing cards in your hands. You split the cards into two groups: the sorted cards and the unsorted cards. Then, you pick a card from the unsorted group and put it in the right place in the sorted group.
 
 ## How It Works:
-1. Start with the first element as the initial position.
-2. Find the smallest element in the unsorted portion of the array.
-3. Swap this smallest element with the first unsorted element.
-4. Move the boundary of the sorted portion one element forward.
-5. Repeat steps 2-4 for the remaining unsorted elements until the entire array is sorted.
+Insertion sort is a simple sorting algorithm that works by building a sorted array one element at a time. It is considered an ” in-place ” sorting algorithm, meaning it doesn’t require any additional memory space beyond the original array.
+
+To achieve insertion sort, follow these steps:
+
+* We start with second element of the array as first element in the array is assumed to be sorted.
+* Compare second element with the first element and check if the second element is smaller then swap them.
+* Move to the third element and compare it with the second element, then the first element and swap as necessary to put it in the correct position among the first three elements.
+* Continue this process, comparing each element with the ones before it and swapping as needed to place it in the correct position among the sorted elements.
+* Repeat until the entire array is sorted.
 
 ## Time Complexity:
-The time complexity of Selection Sort is O(n<sup>2</sup>).
+The time complexity of Insertion Sort is O(n<sup>2</sup>).
 
 ## Pseudocode:
 
 ```pseudo
-procedure selectionSort(arr: array of integers)
+procedure insertionSort(arr: array of integers)
     n = length(arr)
-    for i = 0 to n - 1 do
-        minIndex = i
-        for j = i + 1 to n do
-            if arr[j] < arr[minIndex] then
-                minIndex = j
-            end if
-        end for
-        swap(arr[i], arr[minIndex])
+    for i = 1 to n - 1 do
+        key = arr[i]
+        j = i - 1
+        while j >= 0 and arr[j] > key do
+            arr[j + 1] = arr[j]
+            j = j - 1
+        end while
+        arr[j + 1] = key
     end for
 end procedure
 ```
 
 ## Advantages
-1. Simple to understand and implement.
-2. In-place sorting: Uses a constant amount of extra space (O(1)).
-3. Performs well on small datasets.
+1. Simple to implement and understand.
+2. Adoptive. the number of inversions is directly proportional to number of swaps. For example, no swapping happens for a sorted array and it takes O(n) time only.
+3. Stable sorting algorithm: Maintains the relative order of equal elements.
+4. In-place sorting: Uses O(1) extra space.
 
 ## Disadvantages
-1. Time Complexity: O(n²) in the worst, best, and average cases, making it inefficient for large datasets.
-2. Not Stable: Selection Sort does not maintain the relative order of equal elements.
+1. Inefficient for large datasets: Has a time complexity of O(n²) in the worst and average cases.
+2. Not suitable for very large datasets compared to more advanced sorting algorithms like Merge Sort or Quick Sort.
 
 ## Use Cases:
-1. Selection Sort is typically used when the dataset is small, or when memory is limited and an in-place sorting algorithm is necessary.
-2. It's also useful for educational purposes due to its simplicity.
-3. Used in simple embedded systems where simplicity is needed.
+1. Small or partially sorted datasets: Insertion Sort performs well when the list is already mostly sorted.
+2. Online sorting: It’s useful when the elements are continuously added to the list and need to be sorted dynamically.
 
