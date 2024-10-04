@@ -52,6 +52,8 @@ int main(){
     int target = 5;
     int result_first = findFirstOccurence(arr,0,n-1, n, target);
     int result_last = findLastOccurence(arr,0,n-1, n, target);
+    printf("The first occurrence of element %d is located at index %d\n", target,result_first);
+    printf("The last occurrence of element %d is located at index %d\n", target,result_last);
     printf("Total occurance of %d is %d times.", target, (result_last - result_first + 1));
     return 0;
 }
