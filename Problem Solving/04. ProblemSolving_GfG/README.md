@@ -13,7 +13,7 @@ The problems have been sourced from the [**GeeksforGeeks**](https://www.geeksfor
 
 The problems are categorized into the following sections:  
 
-1. **sArray C/C++ Programs**    
+1. **Array C/C++ Programs**    
 2. **Matrix C/C++ Programs**   
 3. **String C/C++ Programs**    
 4. **Linked List C/C++ Programs**    
