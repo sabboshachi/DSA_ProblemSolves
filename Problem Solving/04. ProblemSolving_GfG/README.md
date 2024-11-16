@@ -36,13 +36,6 @@ Each folder contains:
 - **Solution File:** The implemented solution in C/C++.
 - **Explanation File:** A pdf file of handnote with step-by-step explanation and analysis of the solution.  
 
-## 📚 How to Use  
-
-1. Clone this repository:  
-   ```bash  
-   git clone https://github.com/yourusername/cpp-problem-solving.git
-2. Navigate to the category of your interest.
-3. Explore the solutions and explanations for better understanding.
 
 ## 🛠️ Technologies Used  
 - Programming Languages: C, C++
