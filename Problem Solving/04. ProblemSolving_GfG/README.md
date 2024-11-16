@@ -1,7 +1,43 @@
-# C/C++ Crash Course
-<img align="right" src="image.png" width="205" height="235" alt="image" />
-This repository is a comprehensive resource meticulously designed to delve into the foundational concepts of both C and C++. The progression within the content caters to learners, spanning from entry-level understanding to advanced proficiency. Distinctly, C++ is explored for its integration of object-oriented programming principles and its broader application landscape.
+# ProblemSolving_GfG 🚀  
 
-The primary focus lies in problem-solving within the realms of C and C++, strategically tailored to enhance skills relevant to Competitive Programming. The repository extensively covers data structures and algorithms, offering a structured journey through the intricacies of these programming language
+This folder is a curated collection of C/C++ problems I have solved, categorized into different sections for easy navigation. I understand each problem, I tried to give a detailed explanation for each solution.  
 
-Through systematic coding exercises, learners engage in the fundamental aspects of both languages, gradually advancing to solving diverse problem sets. This approach ensures a well-rounded understanding, equipping individuals with the skills necessary to tackle a spectrum of challenges in the field.
+The problems have been sourced from the [**GeeksforGeeks**](https://www.geeksforgeeks.org/cc-programs/) website, which is renowned for its comprehensive and diverse collection of coding challenges.  
+
+## 🌟 Objectives  
+- To document and share my journey of solving C/C++ problems.  
+- To provide clear and detailed explanations of problem solutions for learners and enthusiasts.  
+- To create a categorized resource for quick reference and learning.  
+
+## 🗂️ Repository Structure  
+
+The problems are categorized into the following sections:  
+
+1. **Array C/C++ Programs**    
+2. **Matrix C/C++ Programs**   
+3. **String C/C++ Programs**    
+4. **Linked List C/C++ Programs**    
+5. **Stack C/C++ Programs**   
+6. **Queue C/C++ Programs**  
+7. **Tree C/C++ Programs**  
+8. **Graph C/C++ Programs**  
+9. **Bit-Magic C/C++ Program**  
+10. **C/C++ Mathematical Programs**  
+11. **C/C++ Dynamic Programming Programs**  
+12. **C/C++ Greedy Algorithm Programs**  
+13. **C/C++ Backtracking Programs**  
+14. **C/C++ Divide and Conquer Programs**  
+15. **C/C++ String Searching Programs**  
+16. **C/C++ Geometric Algorithm Programs**  
+17. **C/C++ Misc Programs**  
+
+Each folder contains:  
+- **Problem Description:** The original problem statement.  
+- **Solution File:** The implemented solution in C/C++.
+- **Explanation File:** A pdf file of handnote with step-by-step explanation and analysis of the solution.  
+
+
+## 🛠️ Technologies Used  
+- Programming Languages: C, C++
+- Tools: Git, GitHub
+
